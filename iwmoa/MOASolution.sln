@@ -21,11 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MOA.Application", "src\MOA.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MOA.Infra.Data", "src\MOA.Infra.Data\MOA.Infra.Data.csproj", "{6D953F0C-5705-4E22-8418-A6B86D6CC703}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOA.API", "src\MOA.API\MOA.API.csproj", "{660B2E7E-6D6C-42E0-A842-94F7C24FCBB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MOA.API", "src\MOA.API\MOA.API.csproj", "{660B2E7E-6D6C-42E0-A842-94F7C24FCBB6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MOA.Domain", "src\MOA.Domain\MOA.Domain.csproj", "{CE96A5B4-3931-49A3-B4C3-294C4135CD6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOA.Infra.CrossCutting.IoC", "src\MOA.Infra.CrossCutting.IoC\MOA.Infra.CrossCutting.IoC.csproj", "{A6269E86-D7BE-426D-9BDA-235FD9F70313}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MOA.Infra.CrossCutting.IoC", "src\MOA.Infra.CrossCutting.IoC\MOA.Infra.CrossCutting.IoC.csproj", "{A6269E86-D7BE-426D-9BDA-235FD9F70313}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MOA.Infra.CrossCutting.Logging", "src\MOA.Infra.CrossCutting.Logging\MOA.Infra.CrossCutting.Logging.csproj", "{CA0FA59F-7C35-48D0-9187-2B4D6D80AAFA}"
 EndProject
