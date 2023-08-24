@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33927.289
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00_Presentation", "00_Presentation", "{55179DF1-A660-402A-866D-8BF75A1C978C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Services", "02_Services", "{65BCB6F0-5B45-48B1-96AB-2DD8C2706AC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_Application", "03_Application", "{5EFB7365-866E-49C3-BAE2-2B936FADE11C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_Domain", "04_Domain", "{8436EEFD-6BC1-44D6-A95F-33A947B6D321}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_Infra", "05_Infra", "{37550B1B-C40F-4824-B5F1-CBD518A5D2C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1_Data", "5.1_Data", "{53E04F85-6F30-4212-AD59-8DB9F7F8C552}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2_CrossCutting", "5.2_CrossCutting", "{BB9DA911-31FC-48AE-9960-41D2ACCAF853}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53E04F85-6F30-4212-AD59-8DB9F7F8C552} = {37550B1B-C40F-4824-B5F1-CBD518A5D2C2}
+		{BB9DA911-31FC-48AE-9960-41D2ACCAF853} = {37550B1B-C40F-4824-B5F1-CBD518A5D2C2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14BCEBF7-FC80-42B6-9047-150AC0FFEFD8}
+	EndGlobalSection
+EndGlobal
