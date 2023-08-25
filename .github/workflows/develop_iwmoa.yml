@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'iwmoa'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_44FB4DA1D272441281E7148473A76EEC }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E1AD008ACD4B4563BF7873EF789FE095 }}
           package: .
