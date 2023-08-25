@@ -8,7 +8,7 @@ namespace MOA.API.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-        "Freezing_RAT", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+        "Freezing_RAT", "Bracing_RAT", "Chilly_RAT", "Cool_RAT", "Mild_RAT", "Warm_RAT", "Balmy_RAT", "Hot", "Sweltering", "Scorching"
     };
 
         private readonly ILogger<WeatherForecastController> _logger;
