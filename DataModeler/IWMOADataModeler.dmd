@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="IWMOADataModeler" id="42B8D8A9-CE08-6AD6-96AC-30EC36D990D8" version="3.5">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-27 21:27:25 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>42B8D8A9-CE08-6AD6-96AC-30EC36D990D8</designId>
+</OSDM_Design>
