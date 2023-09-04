@@ -10,14 +10,21 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-//if (app.Environment.IsDevelopment())
-//{
-//    app.UseSwagger();
-//    app.UseSwaggerUI();
-//}
-
-app.UseSwagger();
-app.UseSwaggerUI();
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+else
+{
+    // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
+    // specifying the Swagger JSON endpoint.
+    app.UseSwaggerUI( c =>
+    {
+        c.SwaggerEndpoint( "/swagger/v1/swagger.json", "IWMOA API V1" );
+    } );
+}
+ 
 
 app.UseHttpsRedirection();
 

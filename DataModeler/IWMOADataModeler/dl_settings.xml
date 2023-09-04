@@ -299,7 +299,7 @@
 	<engineering_params>
 		<delete_without_origin value="false"/>
 		<engineer_coordinates value="true"/>
-		<engineer_generated value="false"/>
+		<engineer_generated value="true"/>
 		<show_engineering_intree value="false"/>
 		<apply_naming_std value="true"/>
 		<use_pref_abbreviation value="true"/>
@@ -423,7 +423,7 @@
 		</data_types_model_estimates>
 		<relational_model_estimates>
 			<relational_model_0_estimates>
-				<relational_model_name value="Relational_1"/>
+				<relational_model_name value="iwmoadb"/>
 				<tables value="70"/>
 				<views value="70"/>
 				<foreign_keys value="70"/>

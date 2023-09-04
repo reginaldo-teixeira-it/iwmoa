@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BD19CA68-909E-7FE7-C556-7CD5EBA97614" name="Invoice">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-28 02:59:00 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="6A2D1006-428B-3419-1D14-F2D26588CF85">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-28 02:59:00 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="740546C1-0032-2EBE-2BBF-DF48E8CDF2E2">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-28 02:59:00 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="749860EE-819F-5B1E-5986-44F05CD2D801" name="Invoice PK">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-28 03:27:51 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6A2D1006-428B-3419-1D14-F2D26588CF85</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
