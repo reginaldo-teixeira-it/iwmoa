@@ -1,5 +1,5 @@
 # iwmoa
-IWMOA - Infowest Manager Onion Architecure
+IWMOA - Infowest Manager Onion Architecture
 
 #Tecnologias 
 BackEnd : .NetCore, TSQL, C#., TypeScript
