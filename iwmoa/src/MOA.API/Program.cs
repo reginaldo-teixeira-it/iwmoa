@@ -32,6 +32,7 @@ builder.Services.AddResponseCompression( options =>
 
 // === Context
 //builder.Services.AddDbContext<DataContext>( opt => opt.UseSqlServer( builder.Configuration.GetConnectionString( "DefaultConnection" ) ) );
+ //builder.Services.AddDbContext<DataContext>
 //builder.Services.AddScoped<DataContext, DataContext>();
 
 // Add services to the container.
