@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3E0BAAE7-AD6B-7CAE-AB54-CAE87C6E7DBD" name="Metadata">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-31 01:09:36 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="7D3290B9-DF04-C4CD-0DB4-47848ACF73F8">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-31 01:09:44 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="FE4E39FE-1343-108B-B5D0-B432D35DBA58">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-31 01:09:56 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CreatedAt" id="2E607137-5BBA-D807-E87D-275CB9430969">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-31 01:14:06 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CreatedBy" id="DF541D79-97C8-E3CE-FB4B-9638063C1B7F">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-31 01:14:17 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UpdatedAt" id="DF945F5D-B3FA-9B1A-2013-565A1E64D30E">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-31 01:14:35 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UpdatedBy" id="B61BFF2A-33A6-6EAD-D361-E8B691BFF2CC">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-31 01:14:45 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8334BA57-F5E1-4CD7-685F-C4CDDCA472ED" name="Metadata PK">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-31 01:09:51 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7D3290B9-DF04-C4CD-0DB4-47848ACF73F8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

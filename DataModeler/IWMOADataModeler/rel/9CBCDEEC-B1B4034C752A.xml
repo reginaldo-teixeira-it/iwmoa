@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="iwmoadb" id="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" mainViewID="9DC5E8A8-4A7A-D732-CBBA-6F27DD9C4A00">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-27 21:27:26 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>980FCE9E-D688-BDF0-C89A-C9FB2DCAED45</selectedRDBMSSite>
+</relationalModel>

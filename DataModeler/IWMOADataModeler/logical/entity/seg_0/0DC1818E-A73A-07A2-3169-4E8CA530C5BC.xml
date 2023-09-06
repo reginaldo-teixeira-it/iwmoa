@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0DC1818E-A73A-07A2-3169-4E8CA530C5BC" name="ServiceCategory">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-28 01:55:01 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="CC5E826C-BF45-73EF-C139-80575EB3E28E">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-28 01:55:01 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="5EEE749A-3061-C345-3954-B7EAF4AFC78E">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-28 01:55:01 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="44735D8B-4648-11AF-F9ED-377E2A702F57" name="ServiceCategory PK">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-28 03:28:41 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CC5E826C-BF45-73EF-C139-80575EB3E28E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

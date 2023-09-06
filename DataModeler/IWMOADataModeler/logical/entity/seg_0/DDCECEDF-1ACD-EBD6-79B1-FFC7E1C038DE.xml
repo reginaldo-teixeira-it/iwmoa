@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DDCECEDF-1ACD-EBD6-79B1-FFC7E1C038DE" name="Roles">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-28 01:22:28 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="C789D611-5109-C01E-A4A1-ACD82BD17072">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-28 01:24:40 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="0552679F-306C-6E59-3DEF-306A8DAC6727">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-28 01:24:50 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3B5D8F14-E4C8-5DF7-17E4-C94E27B39664" name="Roles PK">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-28 03:27:33 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C789D611-5109-C01E-A4A1-ACD82BD17072</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

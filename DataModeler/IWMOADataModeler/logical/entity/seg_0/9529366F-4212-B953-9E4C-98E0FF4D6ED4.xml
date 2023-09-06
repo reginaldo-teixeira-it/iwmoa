@@ -1,0 +1,195 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9529366F-4212-B953-9E4C-98E0FF4D6ED4" name="Address">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-27 23:13:16 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="D4F11C27-2457-C1CD-267E-03F977B2571F">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-27 23:13:52 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdPerson" id="EDCBCE69-BF7E-0A5A-8949-0314ADE2DB9A">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-31 01:05:07 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="7B03870D-2CD6-2DEF-61E4-DA4E8C372992">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-27 23:14:23 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number" id="8D7847D3-1FE3-2E1A-7EE5-350271D0410B">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-27 23:14:55 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CEP" id="D827461A-24AF-4879-2FE7-1607F692C42C">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-27 23:15:32 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="City" id="3574F6E6-3768-3268-2804-82D407001BB7">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-27 23:15:55 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PhoneNumber" id="E3D0973B-EC4F-3C9E-FA7C-9519480CE975">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-31 01:02:30 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MobileNumber" id="5C39CFAD-E090-D810-1821-B822A44B1331">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-31 01:02:49 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="FF6132B0-F40C-A02F-C892-BFD44F733198">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-31 01:03:27 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdUF" id="72ADDFB7-9819-1954-7CB8-676A15FCF2AD">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-27 23:19:27 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdPais" id="37804331-DA33-3EAA-150B-5630FF0EAF6D">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-31 01:37:30 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdGenero" id="568B07A8-C26D-C6D5-467C-43B61A5719BC">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-31 01:42:47 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4C4A2ACD-3533-5D0C-5E61-776C840F5FEE" name="Address PK">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-28 03:27:43 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<engineerTo>
+<item key="9CBCDEEC-89A1-4FF9-451C-B1B4034C752A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D4F11C27-2457-C1CD-267E-03F977B2571F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="DCB570F0-14FA-78D3-9E89-1CCD0B3A0A1D" mainViewID="C0FFBD89-002F-D530-9330-504F3832B5B6">
+<createdBy>ReginaldoTeixeira</createdBy>
+<createdTime>2023-08-27 21:27:25 UTC</createdTime>
+<ownerDesignName>IWMOADataModeler</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
